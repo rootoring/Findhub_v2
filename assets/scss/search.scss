@@ -1,0 +1,31 @@
+.search{ 
+    display:flex; 
+    flex-direction:column; 
+    margin-bottom:20px; 
+    &_row{ 
+      width:100%; 
+      .search_input{ 
+        position:relative; 
+        width:100%; 
+        input{ 
+          width:100%; 
+          padding:10px 10px 10px 40px; 
+          border:2px solid #696969; 
+          font-size:18px; 
+          transition:.3s all; 
+          &:focus{ 
+            border-radius:5px; 
+            border:2px solid #00d1a0; 
+          } 
+        } 
+        i{ 
+          position:absolute; 
+          left:10px; 
+          font-size:20px; 
+          color:#00d1a0; 
+          top:calc(50% - 10px); 
+        } 
+      } 
+    } 
+  } 
+ 
